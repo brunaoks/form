@@ -26,7 +26,7 @@ Para instalar o formulário, siga estas etapas:
 
 Clone o repositório na sua máquina usando:
 ```
-git clone 
+git clone https://github.com/brunaoks/form.git
 ```
    
  ## ☕ Abrindo o formulário 
