@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --cor-primaria: #201b2c;
+  --cor-secundaria: #BA68C8;
+  --cor-terciaria: #2f2841;
+  --cor-fonte: #f0ffffde;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--cor-primaria);
+}
+
+.container {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: var(--cor-terciaria);
+}
+
+.form-img img {
+  width: 31rem;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--cor-fonte);
+  padding: 3rem;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-form {
+  display: flex;
+  align-items: center;
+}
+
+.btn-form button {
+  border: none;
+  background: var(--cor-secundaria);
+  outline: none;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-form button:hover {
+  background: var(--cor-terciaria);
+}
+
+.btn-form button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--cor-fonte);
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input-box input:hover {
+  background: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid var(--cor-secundaria);
+}
+
+.input-box label,
+.gender-title h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.input-box input::placeholder {
+  color: #000000be;
+}
+
+.gender-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.gender-input {
+  display: flex;
+  align-items: center;
+}
+
+.gender-input input {
+  margin-right: 0.35rem;
+}
+
+.gender-input label {
+  font-size: 0.81rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+
+.continue-btn button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background: var(--cor-secundaria);
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-btn button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: var(--cor-fonte);
+}
