@@ -7,7 +7,7 @@
  ![GitHub forks](https://img.shields.io/github/forks/brunaoks/form?style=for-the-badge)   
 
 ## Desktop
-<img src="https://user-images.githubusercontent.com/102770109/202907007-4704f863-8a48-4a1a-96e9-c6c45da9a896.jpg" alt="Desktop" /> 
+<img src="https://user-images.githubusercontent.com/102770109/202907007-4704f863-8a48-4a1a-96e9-c6c45da9a896.jpg" /> 
   
  > Um formulário de cadastro qualquer.
   
