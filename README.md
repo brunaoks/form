@@ -15,8 +15,8 @@
   
  O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas: 
   
- - [x] Atualização visual.
- - [] Responsividade.
+ - [x] Atualização visual. <br>
+ - [ ] Responsividade.
   
  ## 💻 Pré-requisitos
 
