@@ -20,7 +20,7 @@
 
 * Um browser de sua preferência para visualização do projeto.
 
-## 🚀 Instalando Form
+## 🚀 Instalando Formulário
 
 Para instalar o formulário, siga estas etapas:
 
